@@ -32,7 +32,7 @@ public class MorseCodeConverter {
         if(".".equals(c)){
             AudioPlayer.player.start(dotAudio);
         }
-        else if("_".equals(c)){
+        else if("-".equals(c)){
             AudioPlayer.player.start(dashAudio);
         }
         
